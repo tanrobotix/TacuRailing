@@ -3,8 +3,8 @@ Pre Loader
 ----------------------------- */
 $(window).load(function() {
 	'use strict';
-	$('.loading-icon').delay(200).fadeOut();
-	$('#preloader').delay(500).fadeOut('slow');
+	$('.loading-icon').delay(500).fadeOut();
+	$('#preloader').delay(800).fadeOut('slow');
 });
 
 
@@ -15,9 +15,9 @@ $(window).ready(function() {
 	'use strict';
 	$.vegas('slideshow', {
 	  backgrounds:[
-		{ src:'images/bg-slider-2/bg-1.jpg', fade:0 },
-		{ src:'images/bg-slider-2/bg-2.jpg', fade:0 },
-		{ src:'images/bg-slider-2/bg-4.jpg', fade:0 }
+		{ src:'../images/bg-slider-2/bg-1.jpg', fade:0 },
+		{ src:'../images/bg-slider-2/bg-2.jpg', fade:0 },
+		{ src:'../images/bg-slider-2/bg-4.jpg', fade:0 }
 	  ]
 	})();
 });
