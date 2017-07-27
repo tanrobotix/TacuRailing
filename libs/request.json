@@ -1,4 +1,4 @@
-//curl -d @request.json --header "Content-Type: application/json" https://www.googleapis.com/qpxExpress/v1/trips/search?key=your_API_key_here
+//curl -d @request.json --header "Content-Type: application/json" https://www.googleapis.com/qpxExpress/v1/trips/search?key=AIzaSyA-Z_OABlCvKJj9Y7VWMNee6TaHQFbXFyI
 {
   "request": {
     "slice": [
