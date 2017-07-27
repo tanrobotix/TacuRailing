@@ -1,5 +1,5 @@
 //curl -d @request.json --header "Content-Type: application/json" https://www.googleapis.com/qpxExpress/v1/trips/search?key=your_API_key_here
-{
+$request_var =  array({
   "request": {
     "slice": [
       {
@@ -18,4 +18,4 @@
     "solutions": 20,
     "refundable": false
   }
-}
+});
