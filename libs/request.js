@@ -1,5 +1,10 @@
+<<<<<<< HEAD:libs/request.js
 //curl -d @request.json --header "Content-Type: application/json" https://www.googleapis.com/qpxExpress/v1/trips/search?key=your_API_key_here
 $request_var =  array({
+=======
+//curl -d @request.json --header "Content-Type: application/json" https://www.googleapis.com/qpxExpress/v1/trips/search?key=AIzaSyA-Z_OABlCvKJj9Y7VWMNee6TaHQFbXFyI
+{
+>>>>>>> origin/master:libs/request.json
   "request": {
     "slice": [
       {
@@ -18,4 +23,8 @@ $request_var =  array({
     "solutions": 20,
     "refundable": false
   }
+<<<<<<< HEAD:libs/request.js
 });
+=======
+}
+>>>>>>> origin/master:libs/request.json
