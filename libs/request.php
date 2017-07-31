@@ -1,5 +1,25 @@
 <?php
-include('lib/request.js')
+
+$request_var = '{
+  "request": {
+    "slice": [
+      {
+        "origin": '.json_encode($_POST['fr']).',
+        "destination": '.json_encode($_POST['to']).',
+        "date": '.json_encode($_POST['date']).'
+      }
+    ],
+    "passengers": {
+      "adultCount": 1,
+      "infantInLapCount": 0,
+      "infantInSeatCount": 0,
+      "childCount": 0,
+      "seniorCount": 0
+    },
+    "solutions": 5,
+    "refundable": false
+  }
+}';
 
 $curl = curl_init();
 
@@ -11,7 +31,7 @@ curl_setopt_array($curl, array(
   CURLOPT_TIMEOUT => 30,
   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
   CURLOPT_CUSTOMREQUEST => "POST",
-  CURLOPT_POSTFIELDS => json_encode($request_var),
+  CURLOPT_POSTFIELDS => $request_var,
   CURLOPT_SSL_VERIFYPEER=> false,
   CURLOPT_HTTPHEADER => array(
     "cache-control: no-cache",
