@@ -1,7 +1,8 @@
-function mydate() {
-	// body...
-	// document.getElementById('bonjour').innerHTML = "Good morning";
-		var d = new Date();
+/* ----------------------------- 
+Pre Loader
+----------------------------- */
+$(window).load(function() {
+	var d = new Date();
 		/*var time = d.getHour();*/
 		if (d.getHours() < 12){
 			document.getElementById('well-come').innerHTML = "Good morning";
@@ -15,5 +16,4 @@ function mydate() {
 			document.getElementById('well-come').innerHTML = "Good evening";
 			
 		}
-}
- 	
+});

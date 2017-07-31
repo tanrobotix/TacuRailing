@@ -1,7 +1,7 @@
 /* ----------------------------- 
 Pre Loader
 ----------------------------- */
-$(window).load(function() {
+$(window).on("load", function() {
 	'use strict';
 	$('.loading-icon').delay(200).fadeOut();
 	$('#preloader').delay(500).fadeOut('slow');
@@ -23,8 +23,20 @@ $(window).ready(function() {
 });
 
 
-				
-
+//Well-come				
+$(".well-come").ready(function(){
+	var d = new Date();
+		if (d.getHours() < 12){
+			$(".well-come").append("Good morning");
+		}
+		else if ( 12 <= d.getHours() && d.getHours() <= 17){
+			$(".well-come").append("Good afternoon");
+		}
+		else if (d.getHours() > 17){
+			$(".well-come").append("Good evening");
+		}
+	}	
+);
 /* ----------------------------- 
 Scroll into viewPort Animation
 ----------------------------- */
@@ -50,7 +62,7 @@ $(document).ready(function() {
 /* ----------------------------- 
 NiceScroll
 ----------------------------- */	
-$(document).ready(function() { 
+/*$(document).ready(function() { 
 	'use strict';
     $("html").niceScroll({
 		cursorcolor: '#E74C3C',
@@ -62,7 +74,7 @@ $(document).ready(function() {
 		horizrailenabled: false,
 		zindex: 1090
 	});
-  });
+  });*/
 
 
 

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>autocomplete</title>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+  <script type="text/javascript" src="js/origin/jquery-3.2.1.min.js"></script>
+  <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <style>
+    #city {
+      width: 25em;
+    }
+  </style>
+  
+</head>
+<body>
+<div class="ui-widget">
+<label for="city">request</label>
+<input id="city">
+</div>
+<div class="ui-widget">
+response:
+<div id="log" style="height: 200px; width: 600px; overflow: auto;" class="ui-widget-content"></div>
+</div>
+<script type="text/javascript" src="js/custom/autocomplete_ajax.js"></script>
+</body>
+</html>

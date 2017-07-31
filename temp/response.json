@@ -1,0 +1,2593 @@
+
+
+{
+  "request": {
+    "slice": [
+      {
+        "origin": "NRT",
+        "destination": "ICN",
+        "date": "2017-07-29"
+      }
+    ],
+    "passengers": {
+      "adultCount": 1,
+      "infantInLapCount": 0,
+      "infantInSeatCount": 0,
+      "childCount": 0,
+      "seniorCount": 0
+    },
+    "solutions": 20,
+    "refundable": false
+  }
+}{
+ "kind": "qpxExpress#tripsSearch",
+ "trips": {
+  "kind": "qpxexpress#tripOptions",
+  "requestId": "uvvCQGgM8h4r4qdPs0Qz3x",
+  "data": {
+   "kind": "qpxexpress#data",
+   "airport": [
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "HKG",
+     "city": "HKG",
+     "name": "Hong Kong International"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "ICN",
+     "city": "SEL",
+     "name": "Seoul Incheon International"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "NRT",
+     "city": "TYO",
+     "name": "Tokyo Narita International"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "PVG",
+     "city": "SHA",
+     "name": "Shanghai Pudong International"
+    }
+   ],
+   "city": [
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "HKG",
+     "name": "Hong Kong"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "SEL",
+     "name": "Seoul"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "SHA",
+     "name": "Shanghai"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "TYO",
+     "name": "Tokyo"
+    }
+   ],
+   "aircraft": [
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "320",
+     "name": "Airbus A320"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "321",
+     "name": "Airbus A321"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "333",
+     "name": "Airbus A330"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "738",
+     "name": "Boeing 737"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "73H",
+     "name": "Boeing 737"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "744",
+     "name": "Boeing 747"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "772",
+     "name": "Boeing 777"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "788",
+     "name": "Boeing 787"
+    }
+   ],
+   "tax": [
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "OI_001",
+     "name": "Japan Passenger Security Service Charge"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "I5_001",
+     "name": "Hong Kong Airport Passenger Security Charge"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "YQ_F",
+     "name": "OZ YQ surcharge"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "CN_001",
+     "name": "China Airport Fee"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "YR_F",
+     "name": "KE YR surcharge"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "YQ_I",
+     "name": "KE YQ surcharge"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "G3_001",
+     "name": "Hong Kong Airport Construction Fee"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "SW_001",
+     "name": "Japan Passenger Service Facilities Charge International"
+    }
+   ],
+   "carrier": [
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "KE",
+     "name": "Korean Air Lines Co. Ltd."
+    },
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "MU",
+     "name": "China Eastern Airlines"
+    },
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "NH",
+     "name": "All Nippon Airways Co. Ltd."
+    },
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "OZ",
+     "name": "Asiana Airlines Inc."
+    },
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "UO",
+     "name": "Hong Kong Express Airways Limited"
+    }
+   ]
+  },
+  "tripOption": [
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "JPY30220",
+    "id": "XbWfqwqOLz1UKxBA4NH829001",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 150,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 150,
+        "flight": {
+         "carrier": "KE",
+         "number": "5224"
+        },
+        "id": "GdpqBqjwd8XyhPG4",
+        "cabin": "COACH",
+        "bookingCode": "M",
+        "bookingCodeCount": 6,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LUVba+wrCpIZ6IgN",
+          "aircraft": "738",
+          "arrivalTime": "2017-07-29T20:25+09:00",
+          "departureTime": "2017-07-29T17:55+09:00",
+          "origin": "NRT",
+          "destination": "ICN",
+          "originTerminal": "1",
+          "duration": 150,
+          "operatingDisclosure": "OPERATED BY JIN AIR",
+          "mileage": 780
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "Aa3XLa+9/gF+jHhMQqmvRqeL9plkIwsIF1d2WXQe4OsA",
+        "carrier": "KE",
+        "origin": "TYO",
+        "destination": "SEL",
+        "basisCode": "MOWLJ"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "Aa3XLa+9/gF+jHhMQqmvRqeL9plkIwsIF1d2WXQe4OsA",
+        "segmentId": "GdpqBqjwd8XyhPG4"
+       }
+      ],
+      "baseFareTotal": "JPY27000",
+      "saleFareTotal": "JPY27000",
+      "saleTaxTotal": "JPY3220",
+      "saleTotal": "JPY30220",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "SW_001",
+        "chargeType": "GOVERNMENT",
+        "code": "SW",
+        "country": "JP",
+        "salePrice": "JPY2090"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OI_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OI",
+        "country": "JP",
+        "salePrice": "JPY520"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YR_F",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YR",
+        "salePrice": "JPY500"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "JPY110"
+       }
+      ],
+      "fareCalculation": "NRT KE ICN 245.44MOWLJ NUC 245.44 END ROE 110.003 FARE JPY 27000 XT 520OI 2090SW 110YQ 500YR",
+      "latestTicketingTime": "2017-07-29T04:54-04:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "JPY31860",
+    "id": "XbWfqwqOLz1UKxBA4NH82900C",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 675,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 320,
+        "flight": {
+         "carrier": "UO",
+         "number": "819"
+        },
+        "id": "Gw6PPrvd4+2ELzuv",
+        "cabin": "COACH",
+        "bookingCode": "V",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LbORAWgOo0i2Ir2I",
+          "aircraft": "320",
+          "arrivalTime": "2017-07-29T19:30+08:00",
+          "departureTime": "2017-07-29T15:10+09:00",
+          "origin": "NRT",
+          "destination": "HKG",
+          "originTerminal": "2",
+          "destinationTerminal": "1",
+          "duration": 320,
+          "mileage": 1839
+         }
+        ],
+        "connectionDuration": 140
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 215,
+        "flight": {
+         "carrier": "UO",
+         "number": "614"
+        },
+        "id": "Gfs5e5XkP4zGnRtC",
+        "cabin": "COACH",
+        "bookingCode": "V",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LrtOf0ye83PNth13",
+          "aircraft": "320",
+          "arrivalTime": "2017-07-30T02:25+09:00",
+          "departureTime": "2017-07-29T21:50+08:00",
+          "origin": "HKG",
+          "destination": "ICN",
+          "originTerminal": "2",
+          "duration": 215,
+          "mileage": 1285
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "ANtHyfoMzrherCE73pmYvJvsUkKywFHX3eEA62X6",
+        "carrier": "UO",
+        "origin": "TYO",
+        "destination": "HKG",
+        "basisCode": "VGDD"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AJingaVVF6rlNzWQftGI4EIVeseAkeCLx9wYyDzQ",
+        "carrier": "UO",
+        "origin": "HKG",
+        "destination": "SEL",
+        "basisCode": "VGDD"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AJingaVVF6rlNzWQftGI4EIVeseAkeCLx9wYyDzQ",
+        "segmentId": "Gfs5e5XkP4zGnRtC"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "ANtHyfoMzrherCE73pmYvJvsUkKywFHX3eEA62X6",
+        "segmentId": "Gw6PPrvd4+2ELzuv"
+       }
+      ],
+      "baseFareTotal": "JPY27600",
+      "saleFareTotal": "JPY27600",
+      "saleTaxTotal": "JPY4260",
+      "saleTotal": "JPY31860",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OI_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OI",
+        "country": "JP",
+        "salePrice": "JPY520"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "SW_001",
+        "chargeType": "GOVERNMENT",
+        "code": "SW",
+        "country": "JP",
+        "salePrice": "JPY2090"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "I5_001",
+        "chargeType": "GOVERNMENT",
+        "code": "I5",
+        "country": "HK",
+        "salePrice": "JPY650"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "G3_001",
+        "chargeType": "GOVERNMENT",
+        "code": "G3",
+        "country": "HK",
+        "salePrice": "JPY1000"
+       }
+      ],
+      "fareCalculation": "NRT UO X/HKG M 139.99VGDD UO ICN M 110.33VGDD NUC 250.32 END ROE 110.003 FARE JPY 27600 XT 520OI 2090SW 1000G3 650I5",
+      "latestTicketingTime": "2017-07-27T16:52-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "JPY34420",
+    "id": "XbWfqwqOLz1UKxBA4NH829002",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 150,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 150,
+        "flight": {
+         "carrier": "KE",
+         "number": "5222"
+        },
+        "id": "GOGKGKLqpyYt3LYR",
+        "cabin": "COACH",
+        "bookingCode": "Y",
+        "bookingCodeCount": 6,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LxH1pnLb-ghzQHGw",
+          "aircraft": "738",
+          "arrivalTime": "2017-07-29T13:20+09:00",
+          "departureTime": "2017-07-29T10:50+09:00",
+          "origin": "NRT",
+          "destination": "ICN",
+          "originTerminal": "1",
+          "duration": 150,
+          "operatingDisclosure": "OPERATED BY JIN AIR",
+          "mileage": 780
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AngO+9mSw1pz1PphO1VIXgyuevsomlPZJbaqq3s6d+Ck",
+        "carrier": "KE",
+        "origin": "TYO",
+        "destination": "SEL",
+        "basisCode": "YOWLJ"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AngO+9mSw1pz1PphO1VIXgyuevsomlPZJbaqq3s6d+Ck",
+        "segmentId": "GOGKGKLqpyYt3LYR"
+       }
+      ],
+      "baseFareTotal": "JPY31200",
+      "saleFareTotal": "JPY31200",
+      "saleTaxTotal": "JPY3220",
+      "saleTotal": "JPY34420",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "SW_001",
+        "chargeType": "GOVERNMENT",
+        "code": "SW",
+        "country": "JP",
+        "salePrice": "JPY2090"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OI_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OI",
+        "country": "JP",
+        "salePrice": "JPY520"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YR_F",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YR",
+        "salePrice": "JPY500"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "JPY110"
+       }
+      ],
+      "fareCalculation": "TYO KE SEL 283.62YOWLJ NUC 283.62 END ROE 110.003 FARE JPY 31200 XT 520OI 2090SW 110YQ 500YR",
+      "latestTicketingTime": "2017-07-28T21:49-04:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "JPY35630",
+    "id": "XbWfqwqOLz1UKxBA4NH829003",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 150,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 150,
+        "flight": {
+         "carrier": "OZ",
+         "number": "105"
+        },
+        "id": "GmjW4ltUpf2s0uqg",
+        "cabin": "COACH",
+        "bookingCode": "H",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LgFqN7AmKVQ-iJWS",
+          "aircraft": "333",
+          "arrivalTime": "2017-07-29T21:30+09:00",
+          "departureTime": "2017-07-29T19:00+09:00",
+          "origin": "NRT",
+          "destination": "ICN",
+          "originTerminal": "1",
+          "duration": 150,
+          "mileage": 780,
+          "meal": "Dinner"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AAS1zG3X49IqYgckqnapKbSWUnjttaaNjhDF1JzT9W06",
+        "carrier": "OZ",
+        "origin": "TYO",
+        "destination": "SEL",
+        "basisCode": "HJOJK"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AAS1zG3X49IqYgckqnapKbSWUnjttaaNjhDF1JzT9W06",
+        "segmentId": "GmjW4ltUpf2s0uqg"
+       }
+      ],
+      "baseFareTotal": "JPY32400",
+      "saleFareTotal": "JPY32400",
+      "saleTaxTotal": "JPY3230",
+      "saleTotal": "JPY35630",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "SW_001",
+        "chargeType": "GOVERNMENT",
+        "code": "SW",
+        "country": "JP",
+        "salePrice": "JPY2090"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OI_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OI",
+        "country": "JP",
+        "salePrice": "JPY520"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_F",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "JPY620"
+       }
+      ],
+      "fareCalculation": "NRT OZ ICN 294.53HJOJK NUC 294.53 END ROE 110.003 FARE JPY 32400 XT 520OI 2090SW 620YQ",
+      "latestTicketingTime": "2017-07-29T05:59-04:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "JPY38660",
+    "id": "XbWfqwqOLz1UKxBA4NH82900A",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 590,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 210,
+        "flight": {
+         "carrier": "MU",
+         "number": "272"
+        },
+        "id": "GqbN9k705a9P+C3P",
+        "cabin": "COACH",
+        "bookingCode": "R",
+        "bookingCodeCount": 3,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LF+Wck5ptHK2+33S",
+          "aircraft": "321",
+          "arrivalTime": "2017-07-29T13:25+08:00",
+          "departureTime": "2017-07-29T10:55+09:00",
+          "origin": "NRT",
+          "destination": "PVG",
+          "originTerminal": "2",
+          "destinationTerminal": "1",
+          "duration": 210,
+          "mileage": 1115,
+          "meal": "Lunch"
+         }
+        ],
+        "connectionDuration": 255
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 125,
+        "flight": {
+         "carrier": "MU",
+         "number": "5051"
+        },
+        "id": "GHmFVe5Tu5d05NFJ",
+        "cabin": "COACH",
+        "bookingCode": "B",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lmbrr0+mAa+9TRyc",
+          "aircraft": "321",
+          "arrivalTime": "2017-07-29T20:45+09:00",
+          "departureTime": "2017-07-29T17:40+08:00",
+          "origin": "PVG",
+          "destination": "ICN",
+          "originTerminal": "1",
+          "duration": 125,
+          "mileage": 510,
+          "meal": "Dinner"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AwbCCGN16D7eE2q1DTsuQs6P7ZrSwpApb8rs+9ulsM7w",
+        "carrier": "MU",
+        "origin": "TYO",
+        "destination": "SEL",
+        "basisCode": "RSRWJPS"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AwbCCGN16D7eE2q1DTsuQs6P7ZrSwpApb8rs+9ulsM7w",
+        "segmentId": "GqbN9k705a9P+C3P"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AwbCCGN16D7eE2q1DTsuQs6P7ZrSwpApb8rs+9ulsM7w",
+        "segmentId": "GHmFVe5Tu5d05NFJ"
+       }
+      ],
+      "baseFareTotal": "JPY33100",
+      "saleFareTotal": "JPY33100",
+      "saleTaxTotal": "JPY5560",
+      "saleTotal": "JPY38660",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "CN_001",
+        "chargeType": "GOVERNMENT",
+        "code": "CN",
+        "country": "CN",
+        "salePrice": "JPY1490"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "JPY1460"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "SW_001",
+        "chargeType": "GOVERNMENT",
+        "code": "SW",
+        "country": "JP",
+        "salePrice": "JPY2090"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OI_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OI",
+        "country": "JP",
+        "salePrice": "JPY520"
+       }
+      ],
+      "fareCalculation": "TYO MU X/SHA MU SEL 300.90RSRWJPS NUC 300.90 END ROE 110.003 FARE JPY 33100 XT 520OI 2090SW 1490CN 1460YQ",
+      "latestTicketingTime": "2017-07-28T21:54-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "JPY47260",
+    "id": "XbWfqwqOLz1UKxBA4NH82900D",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 465,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 200,
+        "flight": {
+         "carrier": "MU",
+         "number": "8722"
+        },
+        "id": "GOnRaXEa1s3mL2wo",
+        "cabin": "COACH",
+        "bookingCode": "R",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LrtUqFZiNIeLg7nt",
+          "aircraft": "788",
+          "arrivalTime": "2017-07-29T12:00+08:00",
+          "departureTime": "2017-07-29T09:40+09:00",
+          "origin": "NRT",
+          "destination": "PVG",
+          "originTerminal": "2",
+          "destinationTerminal": "1",
+          "duration": 200,
+          "operatingDisclosure": "OPERATED BY JAL",
+          "mileage": 1115,
+          "meal": "Meal"
+         }
+        ],
+        "connectionDuration": 135
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 130,
+        "flight": {
+         "carrier": "MU",
+         "number": "9827"
+        },
+        "id": "GOL5hC5FabNRCtL0",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 2,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LYwLEysViI7Dfcm-",
+          "aircraft": "738",
+          "arrivalTime": "2017-07-29T17:25+09:00",
+          "departureTime": "2017-07-29T14:15+08:00",
+          "origin": "PVG",
+          "destination": "ICN",
+          "originTerminal": "1",
+          "duration": 130,
+          "operatingDisclosure": "OPERATED BY SHANGHAI AIRLINES",
+          "mileage": 510,
+          "meal": "Lunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AmmJKkWqQbBdXxJEXraJOoHTK6Mut1Y8WiViM9dpqxUI",
+        "carrier": "MU",
+        "origin": "TYO",
+        "destination": "SHA",
+        "basisCode": "RHSRJP"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AesReG3UAsyWp5u9x58TINWpeUYJXFpSwLnTDQ+aRRE6",
+        "carrier": "MU",
+        "origin": "SHA",
+        "destination": "SEL",
+        "basisCode": "SSRCK"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AesReG3UAsyWp5u9x58TINWpeUYJXFpSwLnTDQ+aRRE6",
+        "segmentId": "GOL5hC5FabNRCtL0"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AmmJKkWqQbBdXxJEXraJOoHTK6Mut1Y8WiViM9dpqxUI",
+        "segmentId": "GOnRaXEa1s3mL2wo"
+       }
+      ],
+      "baseFareTotal": "JPY41700",
+      "saleFareTotal": "JPY41700",
+      "saleTaxTotal": "JPY5560",
+      "saleTotal": "JPY47260",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "CN_001",
+        "chargeType": "GOVERNMENT",
+        "code": "CN",
+        "country": "CN",
+        "salePrice": "JPY1490"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "JPY1460"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "SW_001",
+        "chargeType": "GOVERNMENT",
+        "code": "SW",
+        "country": "JP",
+        "salePrice": "JPY2090"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OI_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OI",
+        "country": "JP",
+        "salePrice": "JPY520"
+       }
+      ],
+      "fareCalculation": "TYO MU X/SHA M 275.44RHSRJP MU SEL 102.96SSRCK NUC 378.40 END ROE 110.003 FARE JPY 41700 XT 520OI 2090SW 1490CN 1460YQ",
+      "latestTicketingTime": "2017-07-28T20:39-04:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "JPY49060",
+    "id": "XbWfqwqOLz1UKxBA4NH82900K",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 945,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 200,
+        "flight": {
+         "carrier": "MU",
+         "number": "8726"
+        },
+        "id": "GtfaRSErdchcrFmE",
+        "cabin": "COACH",
+        "bookingCode": "R",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LosmQJcS3lPoF+S1",
+          "aircraft": "788",
+          "arrivalTime": "2017-07-29T21:45+08:00",
+          "departureTime": "2017-07-29T19:25+09:00",
+          "origin": "NRT",
+          "destination": "PVG",
+          "originTerminal": "2",
+          "destinationTerminal": "1",
+          "duration": 200,
+          "operatingDisclosure": "OPERATED BY JAL",
+          "mileage": 1115,
+          "meal": "Meal"
+         }
+        ],
+        "connectionDuration": 645
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 100,
+        "flight": {
+         "carrier": "MU",
+         "number": "3697"
+        },
+        "id": "GpKdNEGBcw0vxdNl",
+        "cabin": "COACH",
+        "bookingCode": "N",
+        "bookingCodeCount": 8,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LWpOcYID-Ywo45+d",
+          "aircraft": "320",
+          "arrivalTime": "2017-07-30T11:10+09:00",
+          "departureTime": "2017-07-30T08:30+08:00",
+          "origin": "PVG",
+          "destination": "ICN",
+          "originTerminal": "2",
+          "duration": 100,
+          "operatingDisclosure": "OPERATED BY CHINA SOUTHERN",
+          "mileage": 510,
+          "meal": "Alcoholic Beverages - Complimentary"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AmmJKkWqQbBdXxJEXraJOoHTK6Mut1Y8WiViM9dpqxUI",
+        "carrier": "MU",
+        "origin": "TYO",
+        "destination": "SHA",
+        "basisCode": "RHSRJP"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "Aq+RiI2oVIY60UMw7d0r9MH7FPdfc/CfkxT1Fn4m6WCY",
+        "carrier": "MU",
+        "origin": "SHA",
+        "destination": "SEL",
+        "basisCode": "NSRCK"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "Aq+RiI2oVIY60UMw7d0r9MH7FPdfc/CfkxT1Fn4m6WCY",
+        "segmentId": "GpKdNEGBcw0vxdNl"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AmmJKkWqQbBdXxJEXraJOoHTK6Mut1Y8WiViM9dpqxUI",
+        "segmentId": "GtfaRSErdchcrFmE"
+       }
+      ],
+      "baseFareTotal": "JPY43500",
+      "saleFareTotal": "JPY43500",
+      "saleTaxTotal": "JPY5560",
+      "saleTotal": "JPY49060",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "CN_001",
+        "chargeType": "GOVERNMENT",
+        "code": "CN",
+        "country": "CN",
+        "salePrice": "JPY1490"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "JPY1460"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "SW_001",
+        "chargeType": "GOVERNMENT",
+        "code": "SW",
+        "country": "JP",
+        "salePrice": "JPY2090"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OI_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OI",
+        "country": "JP",
+        "salePrice": "JPY520"
+       }
+      ],
+      "fareCalculation": "TYO MU X/SHA M 275.44RHSRJP MU SEL 119.87NSRCK NUC 395.31 END ROE 110.003 FARE JPY 43500 XT 520OI 2090SW 1490CN 1460YQ",
+      "latestTicketingTime": "2017-07-29T06:24-04:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "JPY49060",
+    "id": "XbWfqwqOLz1UKxBA4NH82900G",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 665,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 200,
+        "flight": {
+         "carrier": "MU",
+         "number": "8722"
+        },
+        "id": "GOnRaXEa1s3mL2wo",
+        "cabin": "COACH",
+        "bookingCode": "R",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LrtUqFZiNIeLg7nt",
+          "aircraft": "788",
+          "arrivalTime": "2017-07-29T12:00+08:00",
+          "departureTime": "2017-07-29T09:40+09:00",
+          "origin": "NRT",
+          "destination": "PVG",
+          "originTerminal": "2",
+          "destinationTerminal": "1",
+          "duration": 200,
+          "operatingDisclosure": "OPERATED BY JAL",
+          "mileage": 1115,
+          "meal": "Meal"
+         }
+        ],
+        "connectionDuration": 340
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 125,
+        "flight": {
+         "carrier": "MU",
+         "number": "5051"
+        },
+        "id": "GHmFVe5Tu5d05NFJ",
+        "cabin": "COACH",
+        "bookingCode": "N",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lmbrr0+mAa+9TRyc",
+          "aircraft": "321",
+          "arrivalTime": "2017-07-29T20:45+09:00",
+          "departureTime": "2017-07-29T17:40+08:00",
+          "origin": "PVG",
+          "destination": "ICN",
+          "originTerminal": "1",
+          "duration": 125,
+          "mileage": 510,
+          "meal": "Dinner"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AmmJKkWqQbBdXxJEXraJOoHTK6Mut1Y8WiViM9dpqxUI",
+        "carrier": "MU",
+        "origin": "TYO",
+        "destination": "SHA",
+        "basisCode": "RHSRJP"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "Aq+RiI2oVIY60UMw7d0r9MH7FPdfc/CfkxT1Fn4m6WCY",
+        "carrier": "MU",
+        "origin": "SHA",
+        "destination": "SEL",
+        "basisCode": "NSRCK"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "Aq+RiI2oVIY60UMw7d0r9MH7FPdfc/CfkxT1Fn4m6WCY",
+        "segmentId": "GHmFVe5Tu5d05NFJ"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AmmJKkWqQbBdXxJEXraJOoHTK6Mut1Y8WiViM9dpqxUI",
+        "segmentId": "GOnRaXEa1s3mL2wo"
+       }
+      ],
+      "baseFareTotal": "JPY43500",
+      "saleFareTotal": "JPY43500",
+      "saleTaxTotal": "JPY5560",
+      "saleTotal": "JPY49060",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "CN_001",
+        "chargeType": "GOVERNMENT",
+        "code": "CN",
+        "country": "CN",
+        "salePrice": "JPY1490"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "JPY1460"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "SW_001",
+        "chargeType": "GOVERNMENT",
+        "code": "SW",
+        "country": "JP",
+        "salePrice": "JPY2090"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OI_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OI",
+        "country": "JP",
+        "salePrice": "JPY520"
+       }
+      ],
+      "fareCalculation": "TYO MU X/SHA M 275.44RHSRJP MU SEL 119.87NSRCK NUC 395.31 END ROE 110.003 FARE JPY 43500 XT 520OI 2090SW 1490CN 1460YQ",
+      "latestTicketingTime": "2017-07-28T20:39-04:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "JPY50020",
+    "id": "XbWfqwqOLz1UKxBA4NH829004",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 145,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 145,
+        "flight": {
+         "carrier": "KE",
+         "number": "706"
+        },
+        "id": "GHDx3JQLHhe38i2i",
+        "cabin": "COACH",
+        "bookingCode": "M",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LJYMxDNZ6GpeTcIO",
+          "aircraft": "772",
+          "arrivalTime": "2017-07-29T11:50+09:00",
+          "departureTime": "2017-07-29T09:25+09:00",
+          "origin": "NRT",
+          "destination": "ICN",
+          "originTerminal": "1",
+          "duration": 145,
+          "mileage": 780,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AoBecKg6w9RZXbPd9zjSZQwbHjJXQDHxWdWrC5Hzp7KM",
+        "carrier": "KE",
+        "origin": "TYO",
+        "destination": "SEL",
+        "basisCode": "MOWJ3"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AoBecKg6w9RZXbPd9zjSZQwbHjJXQDHxWdWrC5Hzp7KM",
+        "segmentId": "GHDx3JQLHhe38i2i"
+       }
+      ],
+      "baseFareTotal": "JPY46800",
+      "saleFareTotal": "JPY46800",
+      "saleTaxTotal": "JPY3220",
+      "saleTotal": "JPY50020",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "SW_001",
+        "chargeType": "GOVERNMENT",
+        "code": "SW",
+        "country": "JP",
+        "salePrice": "JPY2090"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OI_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OI",
+        "country": "JP",
+        "salePrice": "JPY520"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YR_F",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YR",
+        "salePrice": "JPY500"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "JPY110"
+       }
+      ],
+      "fareCalculation": "NRT KE ICN 425.44MOWJ3 NUC 425.44 END ROE 110.003 FARE JPY 46800 XT 520OI 2090SW 110YQ 500YR",
+      "latestTicketingTime": "2017-07-28T20:24-04:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "JPY50020",
+    "id": "XbWfqwqOLz1UKxBA4NH829006",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 145,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 145,
+        "flight": {
+         "carrier": "KE",
+         "number": "704"
+        },
+        "id": "GAhPwm-UWyYGEL6I",
+        "cabin": "COACH",
+        "bookingCode": "M",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lr7G4NJFPp7WSUSl",
+          "aircraft": "744",
+          "arrivalTime": "2017-07-29T16:20+09:00",
+          "departureTime": "2017-07-29T13:55+09:00",
+          "origin": "NRT",
+          "destination": "ICN",
+          "originTerminal": "1",
+          "duration": 145,
+          "mileage": 780,
+          "meal": "Dinner"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AoBecKg6w9RZXbPd9zjSZQwbHjJXQDHxWdWrC5Hzp7KM",
+        "carrier": "KE",
+        "origin": "TYO",
+        "destination": "SEL",
+        "basisCode": "MOWJ3"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AoBecKg6w9RZXbPd9zjSZQwbHjJXQDHxWdWrC5Hzp7KM",
+        "segmentId": "GAhPwm-UWyYGEL6I"
+       }
+      ],
+      "baseFareTotal": "JPY46800",
+      "saleFareTotal": "JPY46800",
+      "saleTaxTotal": "JPY3220",
+      "saleTotal": "JPY50020",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "SW_001",
+        "chargeType": "GOVERNMENT",
+        "code": "SW",
+        "country": "JP",
+        "salePrice": "JPY2090"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OI_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OI",
+        "country": "JP",
+        "salePrice": "JPY520"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YR_F",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YR",
+        "salePrice": "JPY500"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "JPY110"
+       }
+      ],
+      "fareCalculation": "NRT KE ICN 425.44MOWJ3 NUC 425.44 END ROE 110.003 FARE JPY 46800 XT 520OI 2090SW 110YQ 500YR",
+      "latestTicketingTime": "2017-07-29T00:54-04:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "JPY50020",
+    "id": "XbWfqwqOLz1UKxBA4NH829005",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 145,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 145,
+        "flight": {
+         "carrier": "KE",
+         "number": "2"
+        },
+        "id": "GVXNAUXRUQ1R0ktC",
+        "cabin": "COACH",
+        "bookingCode": "M",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LfXx4XqszYqh7-eJ",
+          "aircraft": "333",
+          "arrivalTime": "2017-07-29T19:25+09:00",
+          "departureTime": "2017-07-29T17:00+09:00",
+          "origin": "NRT",
+          "destination": "ICN",
+          "originTerminal": "1",
+          "duration": 145,
+          "mileage": 780,
+          "meal": "Lunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AoBecKg6w9RZXbPd9zjSZQwbHjJXQDHxWdWrC5Hzp7KM",
+        "carrier": "KE",
+        "origin": "TYO",
+        "destination": "SEL",
+        "basisCode": "MOWJ3"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AoBecKg6w9RZXbPd9zjSZQwbHjJXQDHxWdWrC5Hzp7KM",
+        "segmentId": "GVXNAUXRUQ1R0ktC"
+       }
+      ],
+      "baseFareTotal": "JPY46800",
+      "saleFareTotal": "JPY46800",
+      "saleTaxTotal": "JPY3220",
+      "saleTotal": "JPY50020",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "SW_001",
+        "chargeType": "GOVERNMENT",
+        "code": "SW",
+        "country": "JP",
+        "salePrice": "JPY2090"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OI_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OI",
+        "country": "JP",
+        "salePrice": "JPY520"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YR_F",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YR",
+        "salePrice": "JPY500"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "JPY110"
+       }
+      ],
+      "fareCalculation": "NRT KE ICN 425.44MOWJ3 NUC 425.44 END ROE 110.003 FARE JPY 46800 XT 520OI 2090SW 110YQ 500YR",
+      "latestTicketingTime": "2017-07-29T03:59-04:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "JPY50660",
+    "id": "XbWfqwqOLz1UKxBA4NH82900E",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 550,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 210,
+        "flight": {
+         "carrier": "MU",
+         "number": "272"
+        },
+        "id": "GqbN9k705a9P+C3P",
+        "cabin": "COACH",
+        "bookingCode": "R",
+        "bookingCodeCount": 3,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LF+Wck5ptHK2+33S",
+          "aircraft": "321",
+          "arrivalTime": "2017-07-29T13:25+08:00",
+          "departureTime": "2017-07-29T10:55+09:00",
+          "origin": "NRT",
+          "destination": "PVG",
+          "originTerminal": "2",
+          "destinationTerminal": "1",
+          "duration": 210,
+          "mileage": 1115,
+          "meal": "Lunch"
+         }
+        ],
+        "connectionDuration": 215
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 125,
+        "flight": {
+         "carrier": "MU",
+         "number": "3699"
+        },
+        "id": "GWhp9apr7KpVhooK",
+        "cabin": "COACH",
+        "bookingCode": "L",
+        "bookingCodeCount": 4,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LLdJmgUsCy8vapSe",
+          "aircraft": "320",
+          "arrivalTime": "2017-07-29T20:05+09:00",
+          "departureTime": "2017-07-29T17:00+08:00",
+          "origin": "PVG",
+          "destination": "ICN",
+          "originTerminal": "2",
+          "duration": 125,
+          "operatingDisclosure": "OPERATED BY CHINA SOUTHERN",
+          "mileage": 510,
+          "meal": "Alcoholic Beverages - Complimentary"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AmmJKkWqQbBdXxJEXraJOoHTK6Mut1Y8WiViM9dpqxUI",
+        "carrier": "MU",
+        "origin": "TYO",
+        "destination": "SHA",
+        "basisCode": "RHSRJP"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AOIhAssyeBx7Uu4zIj89iYRDkFSNDuUTt92n24eWqVPk",
+        "carrier": "MU",
+        "origin": "SHA",
+        "destination": "SEL",
+        "basisCode": "LSFCK"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AmmJKkWqQbBdXxJEXraJOoHTK6Mut1Y8WiViM9dpqxUI",
+        "segmentId": "GqbN9k705a9P+C3P"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AOIhAssyeBx7Uu4zIj89iYRDkFSNDuUTt92n24eWqVPk",
+        "segmentId": "GWhp9apr7KpVhooK"
+       }
+      ],
+      "baseFareTotal": "JPY45100",
+      "saleFareTotal": "JPY45100",
+      "saleTaxTotal": "JPY5560",
+      "saleTotal": "JPY50660",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "CN_001",
+        "chargeType": "GOVERNMENT",
+        "code": "CN",
+        "country": "CN",
+        "salePrice": "JPY1490"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "JPY1460"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "SW_001",
+        "chargeType": "GOVERNMENT",
+        "code": "SW",
+        "country": "JP",
+        "salePrice": "JPY2090"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OI_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OI",
+        "country": "JP",
+        "salePrice": "JPY520"
+       }
+      ],
+      "fareCalculation": "TYO MU X/SHA M 275.44RHSRJP MU SEL 133.85LSFCK NUC 409.29 END ROE 110.003 FARE JPY 45100 XT 520OI 2090SW 1490CN 1460YQ",
+      "latestTicketingTime": "2017-07-28T21:54-04:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "JPY50660",
+    "id": "XbWfqwqOLz1UKxBA4NH82900F",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 625,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 200,
+        "flight": {
+         "carrier": "MU",
+         "number": "8722"
+        },
+        "id": "GOnRaXEa1s3mL2wo",
+        "cabin": "COACH",
+        "bookingCode": "R",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LrtUqFZiNIeLg7nt",
+          "aircraft": "788",
+          "arrivalTime": "2017-07-29T12:00+08:00",
+          "departureTime": "2017-07-29T09:40+09:00",
+          "origin": "NRT",
+          "destination": "PVG",
+          "originTerminal": "2",
+          "destinationTerminal": "1",
+          "duration": 200,
+          "operatingDisclosure": "OPERATED BY JAL",
+          "mileage": 1115,
+          "meal": "Meal"
+         }
+        ],
+        "connectionDuration": 300
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 125,
+        "flight": {
+         "carrier": "MU",
+         "number": "3699"
+        },
+        "id": "GWhp9apr7KpVhooK",
+        "cabin": "COACH",
+        "bookingCode": "L",
+        "bookingCodeCount": 4,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LLdJmgUsCy8vapSe",
+          "aircraft": "320",
+          "arrivalTime": "2017-07-29T20:05+09:00",
+          "departureTime": "2017-07-29T17:00+08:00",
+          "origin": "PVG",
+          "destination": "ICN",
+          "originTerminal": "2",
+          "duration": 125,
+          "operatingDisclosure": "OPERATED BY CHINA SOUTHERN",
+          "mileage": 510,
+          "meal": "Alcoholic Beverages - Complimentary"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AmmJKkWqQbBdXxJEXraJOoHTK6Mut1Y8WiViM9dpqxUI",
+        "carrier": "MU",
+        "origin": "TYO",
+        "destination": "SHA",
+        "basisCode": "RHSRJP"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AOIhAssyeBx7Uu4zIj89iYRDkFSNDuUTt92n24eWqVPk",
+        "carrier": "MU",
+        "origin": "SHA",
+        "destination": "SEL",
+        "basisCode": "LSFCK"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AOIhAssyeBx7Uu4zIj89iYRDkFSNDuUTt92n24eWqVPk",
+        "segmentId": "GWhp9apr7KpVhooK"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AmmJKkWqQbBdXxJEXraJOoHTK6Mut1Y8WiViM9dpqxUI",
+        "segmentId": "GOnRaXEa1s3mL2wo"
+       }
+      ],
+      "baseFareTotal": "JPY45100",
+      "saleFareTotal": "JPY45100",
+      "saleTaxTotal": "JPY5560",
+      "saleTotal": "JPY50660",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "CN_001",
+        "chargeType": "GOVERNMENT",
+        "code": "CN",
+        "country": "CN",
+        "salePrice": "JPY1490"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "JPY1460"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "SW_001",
+        "chargeType": "GOVERNMENT",
+        "code": "SW",
+        "country": "JP",
+        "salePrice": "JPY2090"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OI_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OI",
+        "country": "JP",
+        "salePrice": "JPY520"
+       }
+      ],
+      "fareCalculation": "TYO MU X/SHA M 275.44RHSRJP MU SEL 133.85LSFCK NUC 409.29 END ROE 110.003 FARE JPY 45100 XT 520OI 2090SW 1490CN 1460YQ",
+      "latestTicketingTime": "2017-07-28T20:39-04:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "JPY54820",
+    "id": "XbWfqwqOLz1UKxBA4NH829007",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 160,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 160,
+        "flight": {
+         "carrier": "KE",
+         "number": "5002"
+        },
+        "id": "GcGpGxPa8uKaq+Ia",
+        "cabin": "COACH",
+        "bookingCode": "B",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LImX3Do20tyGWTTW",
+          "aircraft": "73H",
+          "arrivalTime": "2017-07-29T21:20+09:00",
+          "departureTime": "2017-07-29T18:40+09:00",
+          "origin": "NRT",
+          "destination": "ICN",
+          "originTerminal": "2",
+          "duration": 160,
+          "operatingDisclosure": "OPERATED BY JAL",
+          "mileage": 780,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AtRp+TiQRvT+TPWCTZZoEMkmooYuZFH3uhiAXiUZTp1I",
+        "carrier": "KE",
+        "origin": "TYO",
+        "destination": "SEL",
+        "basisCode": "BOWJ3"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AtRp+TiQRvT+TPWCTZZoEMkmooYuZFH3uhiAXiUZTp1I",
+        "segmentId": "GcGpGxPa8uKaq+Ia"
+       }
+      ],
+      "baseFareTotal": "JPY51600",
+      "saleFareTotal": "JPY51600",
+      "saleTaxTotal": "JPY3220",
+      "saleTotal": "JPY54820",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "SW_001",
+        "chargeType": "GOVERNMENT",
+        "code": "SW",
+        "country": "JP",
+        "salePrice": "JPY2090"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OI_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OI",
+        "country": "JP",
+        "salePrice": "JPY520"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YR_F",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YR",
+        "salePrice": "JPY500"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "JPY110"
+       }
+      ],
+      "fareCalculation": "NRT KE ICN 469.07BOWJ3 NUC 469.07 END ROE 110.003 FARE JPY 51600 XT 520OI 2090SW 110YQ 500YR",
+      "latestTicketingTime": "2017-07-29T05:39-04:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "JPY57230",
+    "id": "XbWfqwqOLz1UKxBA4NH829008",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 150,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 150,
+        "flight": {
+         "carrier": "OZ",
+         "number": "101"
+        },
+        "id": "G+ORXpRtDxxUoPe9",
+        "cabin": "COACH",
+        "bookingCode": "B",
+        "bookingCodeCount": 4,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LReqLQkLb3wwfk4K",
+          "aircraft": "333",
+          "arrivalTime": "2017-07-29T15:00+09:00",
+          "departureTime": "2017-07-29T12:30+09:00",
+          "origin": "NRT",
+          "destination": "ICN",
+          "originTerminal": "1",
+          "duration": 150,
+          "mileage": 780,
+          "meal": "Lunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AOHjZYQtunyMME12O1rfEPiC/nsacK9SQXF7EhWM",
+        "carrier": "OZ",
+        "origin": "TYO",
+        "destination": "SEL",
+        "basisCode": "BOJK"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AOHjZYQtunyMME12O1rfEPiC/nsacK9SQXF7EhWM",
+        "segmentId": "G+ORXpRtDxxUoPe9"
+       }
+      ],
+      "baseFareTotal": "JPY54000",
+      "saleFareTotal": "JPY54000",
+      "saleTaxTotal": "JPY3230",
+      "saleTotal": "JPY57230",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "SW_001",
+        "chargeType": "GOVERNMENT",
+        "code": "SW",
+        "country": "JP",
+        "salePrice": "JPY2090"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OI_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OI",
+        "country": "JP",
+        "salePrice": "JPY520"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_F",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "JPY620"
+       }
+      ],
+      "fareCalculation": "NRT OZ ICN 490.89BOJK NUC 490.89 END ROE 110.003 FARE JPY 54000 XT 520OI 2090SW 620YQ",
+      "latestTicketingTime": "2017-07-28T23:29-04:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "JPY57230",
+    "id": "XbWfqwqOLz1UKxBA4NH829009",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 150,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 150,
+        "flight": {
+         "carrier": "OZ",
+         "number": "103"
+        },
+        "id": "GZngW4wFeWYc2uw6",
+        "cabin": "COACH",
+        "bookingCode": "B",
+        "bookingCodeCount": 6,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LoxgWwr+iLcAsFJs",
+          "aircraft": "321",
+          "arrivalTime": "2017-07-29T16:20+09:00",
+          "departureTime": "2017-07-29T13:50+09:00",
+          "origin": "NRT",
+          "destination": "ICN",
+          "originTerminal": "1",
+          "duration": 150,
+          "mileage": 780,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AOHjZYQtunyMME12O1rfEPiC/nsacK9SQXF7EhWM",
+        "carrier": "OZ",
+        "origin": "TYO",
+        "destination": "SEL",
+        "basisCode": "BOJK"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AOHjZYQtunyMME12O1rfEPiC/nsacK9SQXF7EhWM",
+        "segmentId": "GZngW4wFeWYc2uw6"
+       }
+      ],
+      "baseFareTotal": "JPY54000",
+      "saleFareTotal": "JPY54000",
+      "saleTaxTotal": "JPY3230",
+      "saleTotal": "JPY57230",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "SW_001",
+        "chargeType": "GOVERNMENT",
+        "code": "SW",
+        "country": "JP",
+        "salePrice": "JPY2090"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OI_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OI",
+        "country": "JP",
+        "salePrice": "JPY520"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_F",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "JPY620"
+       }
+      ],
+      "fareCalculation": "NRT OZ ICN 490.89BOJK NUC 490.89 END ROE 110.003 FARE JPY 54000 XT 520OI 2090SW 620YQ",
+      "latestTicketingTime": "2017-07-29T00:49-04:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "JPY66830",
+    "id": "XbWfqwqOLz1UKxBA4NH82900B",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 150,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 150,
+        "flight": {
+         "carrier": "OZ",
+         "number": "107"
+        },
+        "id": "G7P4-SZHtVFlQiN2",
+        "cabin": "COACH",
+        "bookingCode": "Y",
+        "bookingCodeCount": 2,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LCOw5nZQPo9JlpuA",
+          "aircraft": "321",
+          "arrivalTime": "2017-07-29T11:30+09:00",
+          "departureTime": "2017-07-29T09:00+09:00",
+          "origin": "NRT",
+          "destination": "ICN",
+          "originTerminal": "1",
+          "duration": 150,
+          "mileage": 780,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AO1EzGh9Fcb72arK5E/kDFeMKNfHrDYD4EZGwL2c",
+        "carrier": "OZ",
+        "origin": "TYO",
+        "destination": "SEL",
+        "basisCode": "YOJK"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AO1EzGh9Fcb72arK5E/kDFeMKNfHrDYD4EZGwL2c",
+        "segmentId": "G7P4-SZHtVFlQiN2"
+       }
+      ],
+      "baseFareTotal": "JPY63600",
+      "saleFareTotal": "JPY63600",
+      "saleTaxTotal": "JPY3230",
+      "saleTotal": "JPY66830",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "SW_001",
+        "chargeType": "GOVERNMENT",
+        "code": "SW",
+        "country": "JP",
+        "salePrice": "JPY2090"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OI_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OI",
+        "country": "JP",
+        "salePrice": "JPY520"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_F",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "JPY620"
+       }
+      ],
+      "fareCalculation": "NRT OZ ICN 578.16YOJK NUC 578.16 END ROE 110.003 FARE JPY 63600 XT 520OI 2090SW 620YQ",
+      "latestTicketingTime": "2017-07-28T19:59-04:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "JPY99010",
+    "id": "XbWfqwqOLz1UKxBA4NH82900J",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 170,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 170,
+        "flight": {
+         "carrier": "NH",
+         "number": "7049"
+        },
+        "id": "G6Fo8UzzcspHihLk",
+        "cabin": "COACH",
+        "bookingCode": "Y",
+        "bookingCodeCount": 4,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LrNv2haNeY0hxoHe",
+          "aircraft": "738",
+          "arrivalTime": "2017-07-29T20:45+09:00",
+          "departureTime": "2017-07-29T17:55+09:00",
+          "origin": "NRT",
+          "destination": "ICN",
+          "originTerminal": "1",
+          "duration": 170,
+          "operatingDisclosure": "OPERATED BY UNITED",
+          "mileage": 780,
+          "meal": "Snack or Brunch",
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AdHgd+piaufjkemKDAeCbCFBfNmki3jm4eqMooz4tMnc",
+        "carrier": "NH",
+        "origin": "TYO",
+        "destination": "SEL",
+        "basisCode": "Y2OWA9"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AdHgd+piaufjkemKDAeCbCFBfNmki3jm4eqMooz4tMnc",
+        "segmentId": "G6Fo8UzzcspHihLk"
+       }
+      ],
+      "baseFareTotal": "JPY96000",
+      "saleFareTotal": "JPY96000",
+      "saleTaxTotal": "JPY3010",
+      "saleTotal": "JPY99010",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "SW_001",
+        "chargeType": "GOVERNMENT",
+        "code": "SW",
+        "country": "JP",
+        "salePrice": "JPY2090"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OI_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OI",
+        "country": "JP",
+        "salePrice": "JPY520"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_F",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "JPY400"
+       }
+      ],
+      "fareCalculation": "TYO NH SEL M 872.70Y2OWA9 NUC 872.70 END ROE 110.003 FARE JPY 96000 XT 520OI 2090SW 400YQ",
+      "latestTicketingTime": "2017-07-29T04:54-04:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "JPY99010",
+    "id": "XbWfqwqOLz1UKxBA4NH82900I",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 150,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 150,
+        "flight": {
+         "carrier": "NH",
+         "number": "6975"
+        },
+        "id": "GZQfIYnLFh1d2lx3",
+        "cabin": "COACH",
+        "bookingCode": "Y",
+        "bookingCodeCount": 4,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LVEr3MOpoaf-jHtD",
+          "aircraft": "333",
+          "arrivalTime": "2017-07-29T21:30+09:00",
+          "departureTime": "2017-07-29T19:00+09:00",
+          "origin": "NRT",
+          "destination": "ICN",
+          "originTerminal": "1",
+          "duration": 150,
+          "operatingDisclosure": "OPERATED BY ASIANA",
+          "mileage": 780,
+          "meal": "Dinner"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AdHgd+piaufjkemKDAeCbCFBfNmki3jm4eqMooz4tMnc",
+        "carrier": "NH",
+        "origin": "TYO",
+        "destination": "SEL",
+        "basisCode": "Y2OWA9"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AdHgd+piaufjkemKDAeCbCFBfNmki3jm4eqMooz4tMnc",
+        "segmentId": "GZQfIYnLFh1d2lx3"
+       }
+      ],
+      "baseFareTotal": "JPY96000",
+      "saleFareTotal": "JPY96000",
+      "saleTaxTotal": "JPY3010",
+      "saleTotal": "JPY99010",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "SW_001",
+        "chargeType": "GOVERNMENT",
+        "code": "SW",
+        "country": "JP",
+        "salePrice": "JPY2090"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OI_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OI",
+        "country": "JP",
+        "salePrice": "JPY520"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_F",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "JPY400"
+       }
+      ],
+      "fareCalculation": "TYO NH SEL M 872.70Y2OWA9 NUC 872.70 END ROE 110.003 FARE JPY 96000 XT 520OI 2090SW 400YQ",
+      "latestTicketingTime": "2017-07-29T05:59-04:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "JPY99010",
+    "id": "XbWfqwqOLz1UKxBA4NH82900H",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 150,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 150,
+        "flight": {
+         "carrier": "NH",
+         "number": "6973"
+        },
+        "id": "GrW9hoF1s+fn-8go",
+        "cabin": "COACH",
+        "bookingCode": "Y",
+        "bookingCodeCount": 4,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lxev1c0x7nGJ8gSv",
+          "aircraft": "321",
+          "arrivalTime": "2017-07-29T16:20+09:00",
+          "departureTime": "2017-07-29T13:50+09:00",
+          "origin": "NRT",
+          "destination": "ICN",
+          "originTerminal": "1",
+          "duration": 150,
+          "operatingDisclosure": "OPERATED BY ASIANA",
+          "mileage": 780,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AdHgd+piaufjkemKDAeCbCFBfNmki3jm4eqMooz4tMnc",
+        "carrier": "NH",
+        "origin": "TYO",
+        "destination": "SEL",
+        "basisCode": "Y2OWA9"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AdHgd+piaufjkemKDAeCbCFBfNmki3jm4eqMooz4tMnc",
+        "segmentId": "GrW9hoF1s+fn-8go"
+       }
+      ],
+      "baseFareTotal": "JPY96000",
+      "saleFareTotal": "JPY96000",
+      "saleTaxTotal": "JPY3010",
+      "saleTotal": "JPY99010",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "SW_001",
+        "chargeType": "GOVERNMENT",
+        "code": "SW",
+        "country": "JP",
+        "salePrice": "JPY2090"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "OI_001",
+        "chargeType": "GOVERNMENT",
+        "code": "OI",
+        "country": "JP",
+        "salePrice": "JPY520"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_F",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "JPY400"
+       }
+      ],
+      "fareCalculation": "TYO NH SEL M 872.70Y2OWA9 NUC 872.70 END ROE 110.003 FARE JPY 96000 XT 520OI 2090SW 400YQ",
+      "latestTicketingTime": "2017-07-29T00:49-04:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   }
+  ]
+ }
+}
