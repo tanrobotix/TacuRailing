@@ -1,39 +1,23 @@
 <?php
 
-$fr = $_POST['fr'];
-$to = $_POST['to'];
-$departure_date = $_POST['date'];
+$fr = $_GET['fr'];
+$to = $_GET['to'];
+$date = $_GET['date'];
 
-$data = array ('apikey' => '9ayCYeVIATeYLQMsbp8zbU436IQvrloV',
-  'origin' => 'NRT' ,
-  'destination' => 'ICN' ,
-  'departure_date' => '2017-08-10' ,
-  'number_of_results' => '5'
-  );
-
-$params = '';
-foreach($data as $key=>$value)
-  $params .= $key.'='.$value.'&';
-
-$params = trim($params, '&');
-
-echo $params;
 
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
-  CURLOPT_URL => "https://api.sandbox.amadeus.com/v1.2/flights/low-fare-search",
+  CURLOPT_URL => "https://api.sandbox.amadeus.com/v1.2/flights/low-fare-search?apikey=9ayCYeVIATeYLQMsbp8zbU436IQvrloV&origin=".$fr."&destination=".$to."&departure_date=".$date."",
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => "",
   CURLOPT_MAXREDIRS => 10,
   CURLOPT_TIMEOUT => 30,
   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
   CURLOPT_CUSTOMREQUEST => "GET",
-  CURLOPT_POST => COUNT($data),
-  CURLOPT_POSTFIELDS => $params,
   CURLOPT_HTTPHEADER => array(
     "cache-control: no-cache",
-    "postman-token: 079cce8c-c9c6-fbae-b974-5236b70b42f0"
+    "postman-token: 3f1b5487-78ae-43ff-fe65-021c1afe83d9"
   ),
 ));
 
@@ -47,5 +31,6 @@ if ($err) {
 } else {
   echo $response;
 }
+
 
 ?>

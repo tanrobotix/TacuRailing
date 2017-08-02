@@ -3,16 +3,26 @@
   <head>
     <meta charset="utf-8">
     <title>Test</title>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="js/useapi.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <script type="text/javascript" src="js/origin/jquery-3.2.1.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/custom/autocomplete_ajax.js"></script>
+    <style>
+    .city {
+      width: 25em;
+    }
+  </style>
   </head>
   <body>
-  <form method="POST" action="libs/request.php">
-    <input type="text" name="fr">
-    <input type="type" name="to">
-    <input type="date" name="date">
-    <button>getJSON</button>
+  <form method="GET" action="libs/request_amadeus.php">
+    <label for="ct">request</label>
+      <input class="city" type="text" name="fr">
+      <input class="city" type="type" name="to">
+      <input type="date" name="date">
+    <button class="btn btn-primary target">querying</button>
     <!-- <p id="show"></p> -->
     </form>
+    <div class="container">result</div>
   </body>
 </html>
